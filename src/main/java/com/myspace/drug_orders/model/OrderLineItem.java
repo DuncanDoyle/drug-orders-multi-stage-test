@@ -55,7 +55,7 @@ public class OrderLineItem implements java.io.Serializable {
 		this.shipped = shipped;
 	}
 
-	public Order(com.myspace.drug_orders.model.Drug drug, int quantity,
+	public OrderLineItem(com.myspace.drug_orders.model.Drug drug, int quantity,
 			com.myspace.drug_orders.model.Address shippingAddress,
 			boolean shipped) {
 		this.drug = drug;
