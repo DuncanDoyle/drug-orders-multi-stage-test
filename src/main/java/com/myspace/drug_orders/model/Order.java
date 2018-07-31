@@ -9,21 +9,22 @@ public class Order implements java.io.Serializable {
 	static final long serialVersionUID = 1L;
 
 	@org.kie.api.definition.type.Label(value = "Order Line Items")
-	private java.util.List<java.lang.String> orderLineItems;
+	private java.util.List<com.myspace.drug_orders.model.OrderLineItem> orderLineItems;
 
 	public Order() {
 	}
 
-	public java.util.List<java.lang.String> getOrderLineItems() {
+	public java.util.List<com.myspace.drug_orders.model.OrderLineItem> getOrderLineItems() {
 		return this.orderLineItems;
 	}
 
 	public void setOrderLineItems(
-			java.util.List<java.lang.String> orderLineItems) {
+			java.util.List<com.myspace.drug_orders.model.OrderLineItem> orderLineItems) {
 		this.orderLineItems = orderLineItems;
 	}
 
-	public Order(java.util.List<java.lang.String> orderLineItems) {
+	public Order(
+			java.util.List<com.myspace.drug_orders.model.OrderLineItem> orderLineItems) {
 		this.orderLineItems = orderLineItems;
 	}
 
